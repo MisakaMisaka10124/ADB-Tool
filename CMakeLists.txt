@@ -8,6 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 2. 查找全局依赖
 find_package(Threads REQUIRED)
 
-# 3. 包含子目录 (这是关键！)
+# 3. 包含子目录
 
 add_subdirectory(ADB-Tool)
